@@ -60,7 +60,7 @@ header
     border-radius: 10px;
     color: white;
 }
-.botton-Singup
+ .botton-Singup
 {
     border: none;
     background-color: rgba(255, 255, 255, 0);
@@ -78,10 +78,7 @@ header
 
 .introduccion
 {
-    margin: 0px 10%; 
-    height: 86vh;
-    display: flex;
-    align-items: center;
+    margin: 4% 10%; 
 }
 
 .title
@@ -105,4 +102,28 @@ header
     padding: 15px;
     border-radius: 5px;
     color: orange;
+}
+
+.Selectores
+{
+    padding: 30%;
+    margin-left: 20%;
+    width: 60%;
+}
+
+
+.botton-Explore
+{
+    border: none;
+    background-color: orange;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.p-selection
+{
+    color: gray; 
+    font-size: 13px;
 }
