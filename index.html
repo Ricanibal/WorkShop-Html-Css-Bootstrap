@@ -7,26 +7,46 @@
     <title>Document</title>
 </head>
 <body>
-    <header style="width: 100%;">
-        <nav class="navbar  d-flex justify-content-center ">
-            <div class="row justify-content-between mr-0" style="width: 70%;">
-                <div class="col" id="Logo">
-                    Logo
+    <header>
+        <nav class="nav d-flex justify-content-center ">
+            <div class="row justify-content-around align-middle mr-0" style="width: 70%;">
+                <div class="col-2" id="Logo">
+                    <img src="Static/Logo.png" style="width: 100%;" alt="Logo">
                 </div>
-                <div class="col" id="Items">
-                    <div class="row d-flex flex-nowrap">
-                        <div class="col"><p>Home</p></div>
-                        <div class="col"><p>About</p></div>
-                        <div class="col"><p>Destination</p></div>
-                        <div class="col"><p>Tour</p></div>
-                        <div class="col"><p>Blog</p></div>
+                <div class="col-8" id="Items">
+                        <ul class="Nav-central">
+                            <li class="Nav-componente"><a class="Letra-Nav" href="#">Home</a></li>
+                            <li class="Nav-componente"><a class="Letra-Nav" href="#">About</a></li>
+                            <li class="Nav-componente"><a class="Letra-Nav" href="#">Blog</a></li>
+                            <li class="Nav-componente"><a class="Letra-Nav" href="#">Destination</a></li>
+                            <li class="Nav-componente"><a class="Letra-Nav" href="#">Tour</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col" id="Login" >
-                    Login
+                <div class="col-2 align-middle" id="Login" >
+                    <button class="botton-Login"><strong>Login</strong></button>
+                    <button class="botton-Singup"><strong>Sign up</strong></button>
                 </div>
             </div>
         </nav>
     </header>
+    <div class="introduccion" >
+        <div style="width: 50%; text-align: left; padding-left: 10px;">
+            <h1 class="title">
+                Get started your <br>
+                exciting <a style="color:orange">journey</a> <br>
+                with us.
+            </h1>
+            <p class="parrafo"> A Team of experienced tourism professionals will <br>
+                provide you with the best advice and tips for your <br>
+                desire place.
+            </p>
+
+            <button > Discover Now </button>
+        </div>
+        <div style="width: 50%; margin: 0; padding: 0;" class="colla">
+            <img src="Static/Prueba.jpg" style="width: 100%;" alt="Prueba">
+        </div>
+    </div>
 </body>
 </html>
