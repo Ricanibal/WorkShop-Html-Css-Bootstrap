@@ -30,7 +30,7 @@ body{
     color: #FA7436;
 }
 
-.card{
+.card-yonier{
     max-width: 270px !important; 
     height: 388px !important; 
     
@@ -41,7 +41,7 @@ body{
     border-radius: 8px;
 }
 
-.card-header{
+.card-encabezado{
     max-width: 270px !important; 
     height: 270px !important; 
 
@@ -52,7 +52,7 @@ body{
     overflow: hidden;
 }
 
-.card-header img{
+.card-encabezado img{
     width: 100%; 
     height: 100%; 
 
@@ -61,12 +61,12 @@ body{
     transition: .3s all ease;
 }
 
-.card-header img:hover{
+.card-encabezado img:hover{
     transform: scale(1.04);
     filter: saturate(1.1);
 }
 
-.card-body{
+.card-cuerpo{
     width: 244px !important; 
     height: 94px !important; 
 
@@ -74,7 +74,7 @@ body{
     gap: 10px;
 }
 
-.card-title{
+.card-titulo{
     width: 244px !important; 
     height: 52px !important;
 
@@ -87,10 +87,9 @@ body{
     margin: 0;
 }
 
-.card-text{
+.card-texto{
     width: 98px !important; 
     height: 26px !important;
-
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -152,17 +151,17 @@ body{
     border: 2px solid rgba(153, 153, 153, .1);
 }
 
-.section2 .card-header{
+.section2 .card-encabezado{
     max-width: 270px !important; 
     height: 290px !important; 
 }
 
-.section2 .card-body{
+.section2 .card-cuerpo{
     min-width: 90% !important;
     margin: auto;
 }
 
-.section2 .card-title{
+.section2 .card-titulo{
     font-family: Poppins;
     font-size: 24px;
     font-weight: 500;
@@ -171,7 +170,7 @@ body{
     text-align: center;
 }
 
-.section2 .card-text{
+.section2 .card-texto{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
