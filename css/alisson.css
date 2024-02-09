@@ -1,3 +1,16 @@
+.title-section2{
+    font-family: Volkhov;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+}
+
+.title-section2-1{
+    font-family: Volkhov;
+    font-size: 40px;
+    line-height: 40px;
+}
 
 .section-2, .section-5{
     background-color: #F7F8FC;
@@ -9,7 +22,7 @@
 .contenedor2{
     display: flex;
     flex-direction: row;
-    margin: 3% 17%;
+    margin: 5% 10%;
     text-align: left;
 }
 
@@ -27,8 +40,11 @@
     margin: 7% 0%;
 }
 
-.div4 {
-    margin-right: 10px;
+.div4, .div5{
     margin-left: 10px;
-    padding: 80px 0;
+    padding: 20px;
 }
+.div5 {
+    padding: 0px 0px;
+}
+
