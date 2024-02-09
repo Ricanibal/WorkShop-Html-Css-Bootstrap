@@ -31,19 +31,32 @@ body{
 }
 
 .card{
+<<<<<<< HEAD
     max-width: 270px !important;
     height: 388px !important;
 
     padding: 0;
     gap: 20px;
+=======
+    max-width: 270px !important; 
+    height: 388px !important; 
+    
+    padding: 0; 
+    gap: 20px; 
+>>>>>>> origin/main
     border: none;
 
     border-radius: 8px;
 }
 
 .card-header{
+<<<<<<< HEAD
     max-width: 270px !important;
     height: 270px !important;
+=======
+    max-width: 270px !important; 
+    height: 270px !important; 
+>>>>>>> origin/main
 
     padding: 0;
     margin: 0;
@@ -53,10 +66,17 @@ body{
 }
 
 .card-header img{
+<<<<<<< HEAD
     width: 100%;
     height: 100%;
 
 
+=======
+    width: 100%; 
+    height: 100%; 
+
+    
+>>>>>>> origin/main
     filter: saturate(.9);
     transition: .3s all ease;
 }
@@ -67,15 +87,24 @@ body{
 }
 
 .card-body{
+<<<<<<< HEAD
     width: 244px !important;
     height: 94px !important;
+=======
+    width: 244px !important; 
+    height: 94px !important; 
+>>>>>>> origin/main
 
     padding: 0;
     gap: 10px;
 }
 
 .card-title{
+<<<<<<< HEAD
     width: 244px !important;
+=======
+    width: 244px !important; 
+>>>>>>> origin/main
     height: 52px !important;
 
     font-family: Poppins;
@@ -88,7 +117,11 @@ body{
 }
 
 .card-text{
+<<<<<<< HEAD
     width: 98px !important;
+=======
+    width: 98px !important; 
+>>>>>>> origin/main
     height: 26px !important;
 
     font-family: Inter;
@@ -141,20 +174,34 @@ body{
     line-height: 32px;
     letter-spacing: 0em;
     text-align: center;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> origin/main
     color: #666666;
 }
 
 .section2{
+<<<<<<< HEAD
     max-width: 270px !important;
     height: 426px !important;
+=======
+    max-width: 270px !important; 
+    height: 426px !important; 
+>>>>>>> origin/main
 
     border: 2px solid rgba(153, 153, 153, .1);
 }
 
 .section2 .card-header{
+<<<<<<< HEAD
     max-width: 270px !important;
     height: 290px !important;
+=======
+    max-width: 270px !important; 
+    height: 290px !important; 
+>>>>>>> origin/main
 }
 
 .section2 .card-body{
@@ -194,8 +241,13 @@ body{
 }
 
 .location i{
+<<<<<<< HEAD
     color:
             #999999;
+=======
+    color: 
+    #999999;
+>>>>>>> origin/main
 }
 
 .star i{
@@ -280,4 +332,8 @@ body{
     transform: rotate(-180deg);
 }
 
+<<<<<<< HEAD
 /* --------------------------------------Section----------------------------------------- 5 */
+=======
+/* --------------------------------------Section----------------------------------------- 5 */
+>>>>>>> origin/main
