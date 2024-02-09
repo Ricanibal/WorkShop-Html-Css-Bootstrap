@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style/Style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -11,7 +11,7 @@
         <nav class="nav d-flex justify-content-center ">
             <div class="row justify-content-around align-middle mr-0" style="width: 70%;">
                 <div class="col-2" id="Logo">
-                    <img src="Static/Logo.png" style="width: 100%;" alt="Logo">
+                    <img src="Static/Icon/Logo.png" style="width: 100%;" alt="Logo">
                 </div>
                 <div class="col-8" id="Items">
                         <ul class="Nav-central">
@@ -35,7 +35,7 @@
             <div class="col-6 d-flex align-items-center justify-content-start flex-column h-100">
                 <h1 class="title">
                     Get started your <br>
-                    exciting <a style="color:orange">journey</a> <br>
+                    exciting <a class="ColorPrincipal">journey</a> <br>
                     with us.
                 </h1>
                 <p class="parrafo"> A Team of experienced tourism professionals will <br>
@@ -48,7 +48,9 @@
                     
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center">
-                <img src="Static/tourist.png"  alt="Prueba">
+                <img src="Static/Img/tourist.png" class="img-turista"  alt="Turista">
+                <img src="Static/Img/Ellipse 4.png" style="position: absolute; z-index: -1; top:45%" alt="">
+                <img src="Static/Img/Element.png" style="position: absolute; z-index: -1; top:15%;" alt="">
             </div>
         </div>
     </div>
@@ -60,9 +62,9 @@
             <div class="col-3" style="margin-left: 1px;">
                 <select  class="form-select">
                     <option selected="">Location</option>
-                    <option value="1">Medellín</option>
-                    <option value="2">Bogota</option>
-                    <option value="3">Cali</option>
+                    <option value="1">Roma</option>
+                    <option value="2">London</option>
+                    <option value="3">Osaka</option>
                 </select>
                 <p class="p-selection">Where are you going</p>
             </div>
@@ -90,5 +92,95 @@
         </div>
     </div>
     
+    <div class="d-flex align-items-center justify-content-center flex-column">
+        <h1 class="font-size: 24px;">Best <a class="ColorPrincipal"> vacation plan</a></h1><br>
+        <p class="parrafo" style="text-align: center;"> plan your perfect vacation with our travel agency. Choose <br> among hundreds of all-inclusive offers!</p>
+        <div class="col-7 d-flex justify-content-end" style="margin: 2%;">
+            <button class="rounded-circle botonFlecha" style="margin-right: 5%;"><img src="Static/Icon/flecha-pequena-izquierda.svg" style="width: 28px; height: 38px;" alt="flecha"></button> <button class="rounded-circle botonFlecha"><img src="Static/Icon/flecha-pequena-derecha.svg" style="width: 28px; height: 38px;" alt="flecha"></button>
+           </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 24rem; border-radius: 15px">
+                    <img class="card-img-top img-vacasiones" src="Static/Img/Roma.jpg" alt="Imagen Del lugar">
+                    <div class="card-body">
+                      <h5 class="card-title ">
+                        <article class="row d-flex justify-content-between">
+                            <h5 class="col-6">Roma, Italy</h5> 
+                            <h5 class="col-6 text-end ColorPrincipal">$ 5,42k</h5>   
+                        </article> 
+                      </h5>
+                      <p class="card-text">
+                        <article class="row d-flex justify-content-between">
+                            <h5 class="col-6 align-items-center"> <img src="Static/Icon/cursor.svg" alt="icon" > 10 Days Trip </h5> 
+                            <h5 class="col-6 text-end align-items-center"> <img src="Static/Icon/star.png" style="height: 20px;" alt=""> 4.8</h5>   
+                        </article>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 24rem; border-radius: 15px">
+                    <img class="card-img-top img-vacasiones" src="Static/Img/Londres.jpg" alt="Imagen Del lugar">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <article class="row d-flex justify-content-between">
+                                <h5 class="col-6">London, UK</h5> 
+                                <h5 class="col-6 text-end ColorPrincipal">$ 2,42k</h5>   
+                            </article>
+                        </h5>
+                      <p class="card-text">
+                        <article class="row d-flex justify-content-between">
+                            <h5 class="col-6 align-items-center"> <img src="Static/Icon/cursor.svg" alt="icon" > 07 Days Trip </h5> 
+                            <h5 class="col-6 text-end align-items-center"> <img src="Static/Icon/star.png" style="height: 20px;" alt=""> 4.7</h5>   
+                        </article>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 24rem; border-radius: 15px;">
+                    <img class="card-img-top img-vacasiones" src="Static/Img/Japon.jpeg" alt="Imagen Del lugar">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <article class="row d-flex justify-content-between">
+                                <h5 class="col-6">Osaka, Japan</h5> 
+                                <h5 class="col-6 text-end ColorPrincipal">$ 5,42k</h5>   
+                            </article>
+                        </h5>
+                      <p class="card-text">
+                        <article class="row d-flex justify-content-between">
+                            <h5 class="col-6 align-items-center"> <img src="Static/Icon/cursor.svg" alt="icon" > 10 Days Trip </h5> 
+                            <h5 class="col-6 text-end align-items-center"> <img src="Static/Icon/star.png" style="height: 20px;" alt=""> 4.8</h5>   
+                        </article>
+                    </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center flex-column">
+        <div class="banner">
+            <div style="z-index: 1;">
+                <img class="imgbanner" src="Static/Icon/Element.png" alt="">
+            
+           <h1> Subscribe and get exclusive <br> deals offer </h1> 
+           <div style="margin-top: 5%;">
+            <div class="inputbanner row align-items-center justify-content-start">
+                <div class="col-9">
+                    <img src="Static/Img/email.png" alt="" style="width: 25px;" >
+                    <input type="text" placeholder="Enter your mail" width="200px">
+                </div>
+                <div class="col-2">
+                    <button class="botton-subscribete"> Subscribete</button> 
+                </div>
+           </div>
+           </div>
+            </div>
+           <img class="Bannerdecoracion" src="Static/Img/Bannerdecoracion.png" alt="">
+        </div>
+        
+    </div>
+
 </body>
 </html>
