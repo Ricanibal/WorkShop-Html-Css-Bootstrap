@@ -1,5 +1,5 @@
 
-.contenedor{
+.section-2, .section-5{
     background-color: #F7F8FC;
     text-align: center;
     padding: 70px 0px;
@@ -18,12 +18,13 @@
     background-color: white;
     margin-left: 10px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .contenedor-p5{
     background-color: #F7F8FC;
     text-align: center;
+    margin: 7% 0%;
 }
 
 .div4 {
