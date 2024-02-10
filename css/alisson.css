@@ -48,7 +48,7 @@
     padding: 0px 0px;
 }
 
-footer table {
+footer table, .linea {
     width: 65%;
     text-align: center;
 }
@@ -61,13 +61,13 @@ footer table {
     text-align: right;
 }
 
-.tabla, .pie-de-pagina{
+.tabla, .pie-de-pagina, .linea{
     margin-left: auto;
     margin-right: auto;
 }
 
 .tabla {
-    width: 65%; /* Asegura que la tabla ocupe todo el ancho disponible */
+    width: 65%;
     text-align: left;
 }
 
