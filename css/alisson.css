@@ -48,3 +48,27 @@
     padding: 0px 0px;
 }
 
+footer table {
+    width: 65%;
+    text-align: center;
+}
+
+.pie1 {
+    text-align: left;
+}
+
+.pie2 {
+    text-align: right;
+}
+
+.tabla, .pie-de-pagina{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabla {
+    width: 65%; /* Asegura que la tabla ocupe todo el ancho disponible */
+    text-align: left;
+}
+
+

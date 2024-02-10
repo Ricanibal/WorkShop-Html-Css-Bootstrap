@@ -92,8 +92,7 @@ header
     font-size: 60px;
 }
 
-.parrafo
-{
+.parrafo, .pie-de-pagina{
 
     font-size: 14px;
     opacity: 0.7;
