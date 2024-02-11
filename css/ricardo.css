@@ -101,7 +101,7 @@ header
 .introduccion button
 {
     background-color: rgba(240, 248, 255, 0);
-    font-size: 24px;
+    font-size: 17px;
     border-color: var(--prymary--color);
     padding: 15px;
     border-radius: 5px;
@@ -123,7 +123,7 @@ header
 {
     border: none;
     background-color: var(--prymary--color);
-    font-size: 20px;
+    font-size: 15px;
     padding: 15px;
     border-radius: 10px;
     color: white;
