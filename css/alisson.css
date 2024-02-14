@@ -1,9 +1,9 @@
-body {
+/*body {
     display: flex;
     flex-direction: column;
     justify-content: normal !important;
     gap: 0 !important;
-}
+}*/
 
 .title-section2{
     font-family: Volkhov;
